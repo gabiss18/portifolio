@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/gabi.png" alt="avatar da gabriela" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Gabriela</p>
+        <h1>Estudante do 7º Colegio Colégio da Polícia Militar do Paraná </h1>
+        <p>Sou estudante do 7º CPM, cursando o terceiro ano do ensino médio. Tenho no jiu-jitsu, onde sou faixa azul, uma arte marcial que adotei para minha vida. Além disso, cultivo hobbies que também se tornaram parte da minha rotina: a produção de brownies, que gera aprendizado e renda, e o gosto por maquiagens, especialmente gloss, como forma de expressão e criatividade.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Luta</p>
+            <p class="badge bg-secondary">Estética</p>
+            <p class="badge bg-secondary">Culinaria</p>
+       
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/jiu.png" class="card-img-top" alt="livros">
+                    <div class="card-body">
+                        <h5 class="card-title">Jiu-Jitsu</h5>
+                        <p class="card-text">é uma arte marcial que escolhi adotar para a minha vida e que, ao longo do tempo, se tornou um dos meus maiores aprendizados pessoais. Atualmente sou faixa azul, resultado de muita dedicação e esforço constante nos treinos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/comida.png" class="card-img-top" alt="comida">
+                    <div class="card-body">
+                        <h5 class="card-title">Brownies</h5>
+                        <p class="card-text">Fazer brownies começou como um simples passatempo, mas logo se transformou em algo muito maior. No início, era apenas uma forma de relaxar e experimentar receitas diferentes, mas com o tempo percebi que poderia transformar esse hobby em uma oportunidade de gerar renda</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/gloss.png" class="card-img-top" alt="Trilha">
+                    <div class="card-body">
+                        <h5 class="card-title">Maquiagens</h5>
+                        <p class="card-text">A maquiagem sempre foi uma área que despertou meu interesse, principalmente por ser uma forma de expressão criativa e de cuidado com a autoestima. Tenho um gosto especial por gloss, que considero prático, versátil e capaz de transformar até os visuais mais simples em algo único e marcante.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Luta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A prática vai além do aspecto físico, pois exige disciplina, paciência e concentração, elementos que aprendi a levar também para minha rotina fora do tatame. Cada treino me desafia a superar limites, enfrentar dificuldades e compreender que a evolução acontece passo a passo, com humildade e perseverança. O jiu-jitsu me ensinou o valor do respeito ao próximo, a importância da resiliência diante dos obstáculos e a confiança em minhas próprias capacidades. Mais do que um esporte, tornou-se uma filosofia de vida que fortalece não apenas meu corpo, mas também minha mente e meu caráter.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Doces</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Produzir brownies me ensinou organização, paciência e atenção aos detalhes, já que cada etapa da preparação faz diferença no resultado final. Além do sabor que encanta quem prova, aprendi a importância de planejar, calcular custos e até divulgar o que produzo, adquirindo noções de responsabilidade e empreendedorismo. Esse hobby acabou se tornando uma maneira de unir prazer e aprendizado, mostrando que é possível transformar uma atividade simples em uma fonte de realização pessoal e também em um pequeno negócio. Para mim, cada receita é uma oportunidade de transmitir carinho e dedicação, fortalecendo o vínculo com as pessoas por meio da culinária.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Gloss</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>No entanto, meu interesse vai além do uso: gosto de acompanhar tendências, aprender novas técnicas e explorar diferentes estilos, o que torna a maquiagem uma verdadeira arte em minha vida. Para mim, maquiar é muito mais do que realçar a aparência, é uma forma de expressar personalidade, explorar cores e texturas e até transmitir sentimentos. Esse hobby me ajuda a desenvolver criatividade, paciência e atenção aos detalhes, além de abrir espaço para sempre experimentar novas possibilidades. A maquiagem representa, acima de tudo, um momento de conexão comigo mesma, onde posso valorizar minha identidade e explorar diferentes formas de me apresentar ao mundo.</p>
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
